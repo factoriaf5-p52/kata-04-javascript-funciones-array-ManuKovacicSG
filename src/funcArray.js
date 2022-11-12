@@ -1,6 +1,10 @@
 /* Encuentra el máximo */
 
-export function maxOfTwoNumbers(){}
+export function maxOfTwoNumbers(n,m){
+    if (n > m) return n;
+    else return m
+}
+
 export function findLongestWord(){}
 export function sumArray(){}
 export function averageNumbers(){}
